@@ -1,14 +1,16 @@
- @import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@1,800&display=swap');
-
 @media (max-width:600px) {
-   img{
+  nav-img{
     width:95px;
     height:95px;
     text-align: center;
+   margin: -25px 0 0 -25px;
    }
  class{
   text-align: left;
   position:  left;
+  width:39px;
+  height:46px;
+  margin: -50px -12 -12 -50px;
  }
  nav{
   width:230px;
@@ -24,6 +26,21 @@
  }
  q{
   font-size:99px;
+ }
+ .a1{
+  visibility: hidden;
+ }
+.a2{
+ visibility: hidden;
+}
+ .a3{
+  visibility: hidden;
+ }
+ .a4{
+  visibility: hidden;
+ }
+ .a5{
+  visibility: hidden;
  }
 }
 
@@ -105,5 +122,30 @@ height: 60px;
   h1{
     font-size:40px;
     top:34%;
-   margin: 365px -15 -15 365px;
-  }
+}
+#Home{
+ width: 19px;
+ height: 29px;
+ visibility:visible
+}
+#Scratch{
+ width:24px;
+ height: 26px;
+ visibility:visible
+}
+
+#Twitter{
+ width: 25px;
+ height:29px;
+ visibility:visible
+}
+#Maze{
+ width:12px;
+ height:17px;
+ visibility:visible
+}
+#search{
+ width:17px;
+ height:19px;
+ visibility:visible
+}
